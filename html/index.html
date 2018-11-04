@@ -1,184 +1,24 @@
 <html>
 <title>Testing Bootstrap Cole</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- BOOTSTRAP CDN -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- MATERIAL UI CDN -->
+  <script src="https://unpkg.com/@material-ui/core/umd/material-ui.production.min.js" crossorigin="anonymous"></script>
+
+  
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
-body, html {
-    height: 100%;
-    line-height: 1.8;
-}
-/* Full height image header */
-.bgimg-1 {
-    background-position: center;
-    background-size: cover;
-    background-image: url("/w3images/mac.jpg");
-    min-height: 100%;
-}
-.w3-bar .w3-button {
-    padding: 10px;
-}
-
-.fa {
-    padding-left: 10px;
-    margin-left: 10px;
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-
-.w3-padding-48 {
-    padding-top: 0px!important;
-    padding-bottom: 20px!important;
-}
-.img {
-  float:left;
-
-}
-body {
-  font-family: 'Open Sans', 'sans-serif';
-  background: #fff !important;
-  background: url(https://pcbx.us/bfjb.jpg);
-}
-
-h1,
-.h1 {
-  font-size: 36px;
-  text-align: center;
-  font-size: 5em;
-  color: #404041;
-}
-
-.navbar-nav>li>.dropdown-menu {
-  margin-top: 10px;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-z-index: 999999;
-}
-.navbar-default .navbar-form {
-    border-color: #fff;
-      z-index: 2;
-}
-
-.navbar-default {
-    background-color: #f8f8f8;
-    border-color: none;
-}
-
-
-
-.mega-dropdown {
-  position: static !important;
-  width: 100%;
-z-index: 999999 !important;
-}
-
-.mega-dropdown-menu {
-  padding: 20px 0px;
-  width: 100%;
-  box-shadow: none;
-  -webkit-box-shadow: none;
-  z-index: 999999 !important;
-
-}
-
-.mega-dropdown-menu:before {
-  content: "";
-  border-bottom: 15px solid #fff;
-  border-right: 17px solid transparent;
-  border-left: 17px solid transparent;
-  position: absolute;
-  top: -15px;
-  left: 285px;
-  z-index: 999999 !important;
-
-}
-
-.mega-dropdown-menu:after {
-  content: "";
-  border-bottom: 17px solid #ccc;
-  border-right: 19px solid transparent;
-  border-left: 19px solid transparent;
-  position: absolute;
-  top: -17px;
-  left: 283px;
-  z-index: 999999 !important;
-
-}
-
-.mega-dropdown-menu > li > ul {
-  padding: 0;
-  margin: 0;
-  z-index: 999999 !important;
-
-}
-
-.mega-dropdown-menu > li > ul > li {
-  list-style: none;
-  z-index: 999999 !important;
-
-}
-
-.mega-dropdown-menu > li > ul > li > a {
-  display: block;
-  padding: 3px 20px;
-  clear: both;
-  font-weight: normal;
-  line-height: 1.428571429;
-  color: #999;
-  white-space: normal;
-  z-index: 999999 !important;
-
-}
-
-.mega-dropdown-menu > li ul > li > a:hover,
-.mega-dropdown-menu > li ul > li > a:focus {
-  text-decoration: none;
-  color: #444;
-  background-color: #f5f5f5;
-  z-index: 999999 !important;
-
-}
-
-.mega-dropdown-menu .dropdown-header {
-  color: #428bca;
-  font-size: 18px;
-  font-weight: bold;
-  z-index: 999999 !important;
-
-}
-
-.mega-dropdown-menu form {
-  margin: 3px 20px;
-  z-index: 999999 !important;
-
-}
-
-.mega-dropdown-menu .form-group {
-  margin-bottom: 3px;
-  z-index: 999999 !important;
-
-}
-.navbar-nav>li>a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    line-height: 20px;
-    text-align: center;
-}
-
-</style>
+  
+  <link rel="stylesheet" href="../css/index.css">
 
     </a>
 <header class="w3-container w3-center w3-padding-48 w3-white">
@@ -203,6 +43,7 @@ z-index: 999999 !important;
 
         </a>
     <!-- Right-sided navbar links -->
+    <!-- HEADER -->
     <div class="w3-right w3-hide-small w3-hide-medium">
       <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
       <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> DIRECTIONS</a>
@@ -213,7 +54,12 @@ z-index: 999999 !important;
       </span> DONATE</button>&nbsp;&nbsp;
 
     </div>
-<br>    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+<br>    
+<!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+<a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+    <i class="fa fa-bars"></i>
+  </a>
   </div>
 </div>
 
@@ -229,8 +75,9 @@ z-index: 999999 !important;
 
     <nav class="navbar navbar-default">
       <br><div class="navbar-header">
-        <a class="navbar-brand" href="#">  <img class="w3-image" src="C:\Users\Karen\Desktop\FORT WORTH AVIATION PROJECT\images\museam-logo.png" alt="Fashion Blog" width="325" height="255">
-</a>
+        <a class="navbar-brand" href="#">  
+          <img class="w3-image" src="../images/museam-logo.png" alt="Fashion Blog" width="325" height="255">
+        </a>
         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
@@ -250,14 +97,14 @@ z-index: 999999 !important;
                   <div id="myCarousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                       <div class="item active">
-                        <a href="#"><img src="C:\Users\Karen\Desktop\FORT WORTH AVIATION PROJECT\images\testy.jpg" class="img-responsive" alt="product 1"></a>
+                        <a href="#"><img src="../images/testy.jpg" class="img-responsive" alt="product 1"></a>
                         <h4><small>Summer dress floral prints</small></h4>
                         <button class="btn btn-primary" type="button">49,99 €</button>
                         <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>
                       </div>
                       <!-- End Item -->
                       <div class="item">
-                        <a href="#"><img src="C:\Users\Karen\Desktop\FORT WORTH AVIATION PROJECT\images\IMG_5975-940x600.jpg" class="img-responsive" alt="product 2"></a>
+                        <a href="#"><img src="../images/IMG_5975-940x600.jpg" class="img-responsive" alt="product 2"></a>
                         <h4><small>Gold sandals with shiny touch</small></h4>
                         <button class="btn btn-primary" type="button">9,99 €</button>
                         <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>
